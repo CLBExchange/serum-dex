@@ -2,6 +2,10 @@
 name = "serum-dex-permissioned"
 version = "0.4.3"
 edition = "2018"
+description = "Serum DEX"
+repository = "https://github.com/project-serum/serum-dex"
+license = "Apache-2.0"
+authors = ["Serum Foundation <foundation@projectserum.com>"]
 
 [dependencies]
 anchor-lang = "0.18.0"

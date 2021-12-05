@@ -3,11 +3,22 @@ name = "serum-common"
 version = "0.4.3"
 description = "Serum common utilities"
 repository = "https://github.com/project-serum/serum-dex"
+license = "Apache-2.0"
+authors = ["Serum Foundation <foundation@projectserum.com>"]
 edition = "2018"
 
 [features]
 program = ["spl-token/program", "solana-sdk/program", "solana-program"]
-client = ["spl-token/default", "solana-sdk/default", "solana-client", "anyhow", "rand", "serde_json", "bs58", "bincode"]
+client = [
+    "spl-token/default",
+    "solana-sdk/default",
+    "solana-client",
+    "anyhow",
+    "rand",
+    "serde_json",
+    "bs58",
+    "bincode"
+]
 strict = []
 devnet = []
 default = []
@@ -18,10 +29,8 @@ arrayref = "0.3.6"
 serde = { version = "1.0", features = ["derive"] }
 solana-sdk = { version = "1.3.14", default-features = false }
 serum-borsh = "0.8.1-serum.1"
-
 # Program only.
 solana-program = { version = "1.4.3", optional = true }
-
 # Client only.
 anyhow = { version = "1.0.32", optional = true }
 rand = { version = "0.7.3", optional = true }

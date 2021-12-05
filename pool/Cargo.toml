@@ -3,6 +3,9 @@ name = "serum-pool"
 version = "0.4.3"
 description = "Solana pool spec"
 edition = "2018"
+repository = "https://github.com/project-serum/serum-dex"
+license = "Apache-2.0"
+authors = ["Serum Foundation <foundation@projectserum.com>"]
 
 [features]
 program = []
