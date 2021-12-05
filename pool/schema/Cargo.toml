@@ -1,6 +1,6 @@
 [package]
 name = "serum-pool-schema"
-version = "0.4.5"
+version = "0.4.6"
 authors = ["Sebastian Conybeare <sebastian@projectserum.com>"]
 edition = "2018"
 
