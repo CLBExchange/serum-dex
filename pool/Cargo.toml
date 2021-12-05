@@ -1,6 +1,6 @@
 [package]
 name = "serum-pool"
-version = "0.4.6"
+version = "0.4.7"
 description = "Solana pool spec"
 edition = "2018"
 repository = "https://github.com/project-serum/serum-dex"

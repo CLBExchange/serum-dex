@@ -1,8 +1,11 @@
 [package]
 name = "serum-pool-schema"
-version = "0.4.6"
+version = "0.4.7"
 authors = ["Sebastian Conybeare <sebastian@projectserum.com>"]
 edition = "2018"
+description = "Serum pool schema"
+repository = "https://github.com/project-serum/serum-dex"
+license = "Apache-2.0"
 
 [features]
 program = []
