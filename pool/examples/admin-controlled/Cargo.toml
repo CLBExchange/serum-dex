@@ -1,6 +1,6 @@
 [package]
 name = "serum-pool-admin-controlled"
-version = "0.4.3"
+version = "0.4.4"
 description = "Simple serum pool"
 edition = "2018"
 
