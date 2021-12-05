@@ -1,6 +1,6 @@
 [package]
 name = "serum-pool"
-version = "0.1.0"
+version = "0.4.3"
 description = "Solana pool spec"
 edition = "2018"
 
@@ -9,7 +9,7 @@ program = []
 default = []
 
 [dependencies]
-serum-pool-schema = { version = "0.1.0", path = "./schema" }
+serum-pool-schema = { version = "0.4.3", path = "./schema" }
 arrayref = "0.3.6"
 solana-program = "1.4.14"
 spl-token = { version = "3.0.0", features = ["no-entrypoint"] }

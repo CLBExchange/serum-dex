@@ -1,6 +1,6 @@
 [package]
 name = "serum"
-version = "0.4.2"
+version = "0.4.3"
 description = "Serum DEX"
 repository = "https://github.com/project-serum/serum-dex"
 edition = "2018"

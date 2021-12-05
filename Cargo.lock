@@ -786,7 +786,7 @@ checksum = "8aebca1129a03dc6dc2b127edd729435bbc4a37e1d5f4d7513165089ceb02634"
 
 [[package]]
 name = "crank"
-version = "0.4.2"
+version = "0.4.3"
 dependencies = [
  "anyhow",
  "clap 3.0.0-beta.2",
@@ -3262,7 +3262,7 @@ dependencies = [
 
 [[package]]
 name = "serum"
-version = "0.4.2"
+version = "0.4.3"
 dependencies = [
  "arbitrary",
  "arrayref",
@@ -3301,7 +3301,7 @@ dependencies = [
 
 [[package]]
 name = "serum-common"
-version = "0.4.2"
+version = "0.4.3"
 dependencies = [
  "anyhow",
  "arrayref",
@@ -3319,7 +3319,7 @@ dependencies = [
 
 [[package]]
 name = "serum-dex-permissioned"
-version = "0.4.2"
+version = "0.4.3"
 dependencies = [
  "anchor-lang",
  "anchor-spl",
@@ -3329,7 +3329,7 @@ dependencies = [
 
 [[package]]
 name = "serum-pool"
-version = "0.1.0"
+version = "0.4.3"
 dependencies = [
  "anyhow",
  "arrayref",
@@ -3347,7 +3347,7 @@ dependencies = [
 
 [[package]]
 name = "serum-pool-admin-controlled"
-version = "0.1.0"
+version = "0.4.3"
 dependencies = [
  "serum-borsh",
  "serum-pool",
@@ -3357,7 +3357,7 @@ dependencies = [
 
 [[package]]
 name = "serum-pool-schema"
-version = "0.1.0"
+version = "0.4.3"
 dependencies = [
  "serum-borsh",
  "solana-program",
@@ -3365,7 +3365,7 @@ dependencies = [
 
 [[package]]
 name = "serum-pool-simple"
-version = "0.1.0"
+version = "0.4.3"
 dependencies = [
  "serum-pool",
  "solana-program",
@@ -3373,7 +3373,7 @@ dependencies = [
 
 [[package]]
 name = "serum_assert_owner"
-version = "0.1.0"
+version = "0.4.3"
 dependencies = [
  "solana-program",
 ]

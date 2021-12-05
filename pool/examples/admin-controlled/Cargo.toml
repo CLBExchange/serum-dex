@@ -1,6 +1,6 @@
 [package]
 name = "serum-pool-admin-controlled"
-version = "0.1.0"
+version = "0.4.3"
 description = "Simple serum pool"
 edition = "2018"
 
@@ -11,7 +11,7 @@ default = []
 
 [dependencies]
 solana-program = "1.4.14"
-serum-pool = { version = "0.1.0", path = "../.." }
+serum-pool = { version = "0.4.3", path = "../.." }
 spl-token = { version = "3.0.0", features = ["no-entrypoint"] }
 serum-borsh = "0.8.1-serum.1"
 
