@@ -1,6 +1,6 @@
 [package]
 name = "serum-pool-simple"
-version = "0.4.4"
+version = "0.4.5"
 description = "Simple serum pool"
 edition = "2018"
 
